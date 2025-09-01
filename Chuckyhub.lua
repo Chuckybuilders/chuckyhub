@@ -2958,7 +2958,7 @@ do
                 textLabel.Size = UDim2.new(0, 400, 0, 100)
                 textLabel.Font = Enum.Font.SourceSansBold
                 textLabel.RichText = true
-                textLabel.Text = '<font color="rgb(0,163,224)">bronx.</font>lol\n' .. Title
+                textLabel.Text = '<font color="rgb(0,163,224)">chuckyhub.</font>cc\n' .. Title
                 textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
                 textLabel.BackgroundTransparency = 1
                 textLabel.TextSize = 36
@@ -2978,7 +2978,7 @@ do
                             local timeLeft = endTime - tick()
 
                             textLabel.Text = string.format(
-                                '<font color="rgb(0,163,224)">bronx.</font>lol\n%s\nplease wait : <font color="rgb(0,163,224)">%.2f</font> seconds',
+                                '<font color="rgb(0,163,224)">chuckyhub.</font>cc\n%s\nplease wait : <font color="rgb(0,163,224)">%.2f</font> seconds',
                                 Title, math.max(timeLeft, 0)
                             )
 
@@ -5253,7 +5253,7 @@ do
                 textLabel.Size = UDim2.new(0, 400, 0, 100)
                 textLabel.Font = Enum.Font.SourceSansBold
                 textLabel.RichText = true
-                textLabel.Text = '<font color="rgb(0,163,224)">bronx.</font>lol\n' .. Title
+                textLabel.Text = '<font color="rgb(0,163,224)">chuckyhub.</font>cc\n' .. Title
                 textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
                 textLabel.BackgroundTransparency = 1
                 textLabel.TextSize = 36
@@ -5273,7 +5273,7 @@ do
                             local timeLeft = endTime - tick()
 
                             textLabel.Text = string.format(
-                                '<font color="rgb(0,163,224)">bronx.</font>lol\n%s\nplease wait : <font color="rgb(0,163,224)">%.2f</font> seconds',
+                                '<font color="rgb(0,163,224)">chuckyhub.</font>cc\n%s\nplease wait : <font color="rgb(0,163,224)">%.2f</font> seconds',
                                 Title, math.max(timeLeft, 0)
                             )
 
@@ -13970,7 +13970,7 @@ if not Mobile then
     end
 -- \\ Script
 
-local window = library:window({name = "bronx", suffix = ".lol", gameInfo = string.format("chuckyhub.cc : %s", Game_Name:lower())})
+local window = library:window({name = "chuckyhub", suffix = ".cc", gameInfo = string.format("chuckyhub.cc : %s", Game_Name:lower())})
 
 if Game_Name == "The Bronx" then
     window:seperator({name = "Game"}) do
@@ -15985,3 +15985,4 @@ if hookfunction and not Solara and LPH_OBFUSCATED and Game_Name == "South Bronx"
     end)
 
 end
+
