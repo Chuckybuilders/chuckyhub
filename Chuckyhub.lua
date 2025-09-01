@@ -227,7 +227,7 @@ if LPH_OBFUSCATED then
 end
 
 if script_key then
-    writefile("BronxLol_Key.txt", script_key)
+    writefile("chuckyhub.cc_Key.txt", script_key)
 end
 
 do 
@@ -2954,7 +2954,7 @@ do
                 frame.Parent = getgenv().HideScreenGUI
             
                 local textLabel = Instance.new("TextLabel")
-                textLabel.Name = "\nhideuibronxlol"
+                textLabel.Name = "\nhideuiChuckyhub.cc"
                 textLabel.Size = UDim2.new(0, 400, 0, 100)
                 textLabel.Font = Enum.Font.SourceSansBold
                 textLabel.RichText = true
@@ -5249,7 +5249,7 @@ do
                 frame.Parent = getgenv().HideScreenGUI
             
                 local textLabel = Instance.new("TextLabel")
-                textLabel.Name = "\nhideuibronxlol"
+                textLabel.Name = "\nhideuichuckyhub.cc"
                 textLabel.Size = UDim2.new(0, 400, 0, 100)
                 textLabel.Font = Enum.Font.SourceSansBold
                 textLabel.RichText = true
@@ -15983,4 +15983,5 @@ if hookfunction and not Solara and LPH_OBFUSCATED and Game_Name == "South Bronx"
 
         return _FireServer(self, ...)
     end)
+
 end
